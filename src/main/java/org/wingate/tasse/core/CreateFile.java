@@ -42,7 +42,7 @@ public class CreateFile {
             ImageIO.write(image, "png", new File("image.png"));
         }catch(Exception exc){
             System.err.println("Error!");
-            System.out.println("Format: java -jar assj.jar asspath width height milliseconds");
+            System.out.println("Format: java -jar tasse.jar asspath width height milliseconds");
         }
     }
     
